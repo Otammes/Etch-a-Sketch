@@ -19,8 +19,5 @@ selectedDivs.forEach((div) => {
         div.style.backgroundColor = "blue";
     })
 
-    div.addEventListener("mouseleave", (event) => {
-        div.style.backgroundColor = "white"
-    })
 }
 )
