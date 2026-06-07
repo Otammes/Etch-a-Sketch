@@ -21,3 +21,9 @@ selectedDivs.forEach((div) => {
 
 }
 )
+
+const btn = document.querySelector("#btn")
+
+btn.addEventListener("click", (event) => {
+    prompt("How many numbers of squares do you want?")
+})
